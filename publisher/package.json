@@ -1,0 +1,23 @@
+{
+  "name": "database-alisia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@paperclicks/optimizer_database": "1.0.43-demo-01",
+    "amqplib": "^0.10.3",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1",
+    "@types/express": "^4.17.16"
+  }
+}
